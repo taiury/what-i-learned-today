@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background: #d6e9fa;
+}
+#segundoGrau {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #45a3ff;
+  color: #45a3ff;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#segundoGrau:hover {
+  color: #fff;
+  background: #45a3ff;
+  opacity: 0.5;
+}
+
+#divSegundoGrau {
+  width: 100px;
+  height: 50px;
+  margin-top: 100px;
+}
+
+#containerButton {
+  width: 60px;
+  height: 60px;
+  margin-left: 70px;
+}
+
+#buttonSegundoGrau {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px solid #45a3ff;
+  color: #45a3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#buttonSegundoGrau:hover {
+  background: #45a3ff;
+  color: #fff;
+  opacity: 0.5;
+}
+
+#inputSegundoGrau {
+  border-radius: 10px;
+  border: 2px solid #45a3ff;
+  color: #45a3ff;
+  width: 90px;
+  height: 30px;
+  margin-left: -30px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+#containerA,
+#containerB,
+#containerC,
+#containerResult {
+  border-radius: 20px;
+  border: 2px solid #45a3ff;
+  color: #45a3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: 0.5s;
+  margin-left: -50px;
+}
+
+#containerA:hover,
+#containerB:hover,
+#containerC:hover,
+#containerResult:hover {
+  background: #45a3ff;
+  color: #fff;
+  opacity: 0.5;
+}
+
+#containerA {
+  width: 200px;
+  height: 50px;
+  margin-top: 60px;
+}
+
+#containerB {
+  width: 200px;
+  height: 50px;
+  margin-top: 120px;
+}
+
+#containerC {
+  width: 200px;
+  height: 50px;
+  margin-top: 180px;
+}
+
+#containerResult {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  margin-top: 240px;
+  margin-left: -77px;
+}
+
+#containerReset {
+  width: 60px;
+  height: 60px;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: 0.5s;
+  margin-left: 25px;
+}
+
+#reset {
+  color: #45a3ff;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 100%;
+  border: 2px solid #45a3ff;
+}
+#reset:hover {
+  color: #fff;
+  background: #45a3ff;
+  opacity: 0.5;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
